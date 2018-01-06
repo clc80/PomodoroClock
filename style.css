@@ -2,33 +2,37 @@
 font-family: 'Gravitas One', cursive;
 font-family: 'Arima Madurai', cursive;
 */
+html {
+  font-size: 3.5em;
+}
 body {
   background-color: #2f7674;
   color: #daa97a;
   font-family: "Arima Madurai", cursive;
-  font-size: 18px;
+  font-size: 62.5%;
   font-weight: bold;
   text-align: center;
 }
-
+h1 {
+  font-size: 2em;
+}
 #clock {
   background-color: #b0654b;
   color: #6bb9b3;
   width: 250px;
   margin-top: 0px;
   float: left;
-  font-size: 25px;
   margin: 0px 50px 50px 100px;
   padding-bottom: 5px;
   border-radius: 10px;
   box-shadow: 0px 5px 5px #6bb9b3;
 }
 #status {
-  font-size: 35px;
+  font-size: 1.25em;
 }
 #timer {
   font-family: "Gravitas One", cursive;
-  font-size: 50px;
+  font-size: 1.65em;
   margin: -10px 0px 0px 0px;
 }
 #start-pause {
@@ -52,7 +56,7 @@ body {
 }
 #credits {
   margin-top: 100px;
-  font-size: 10px;
+  font-size: .5em;
   color: black;
 }
 #controls {
@@ -77,10 +81,10 @@ body {
 }
 .session-time, .break-time {
   font-family: "Gravitas One", cursive;
-  font-size: 50px;
+  font-size: 2em;
 }
 .session-timeControls-plus, .session-timeControls-minus, .break-timeControls-plus, .break-timeControls-minus {
   text-shadow: 2px 2px 5px black;
-  font-size: 35px;
+  font-size: 1.5em;
   cursor: pointer;
 }
