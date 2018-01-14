@@ -11,27 +11,38 @@
 </head>
 
 <body>
-  <h1> Pomodoro Clock </h1>
-  <div id="clock">
-    <p id="status"> Work </p>
-    <p id="timer"> 25:00</p>
-    <p id="start-pause"> Start </p>
-    <p id="reset">Reset </p>
-    <p id="credits"> By: TheCoderPilot</p>
-  </div>
-  <div id="controls">
-    <div id="sessionTime">
-      <p> Session Time</p>
-      <p class="session-time"> 25 </p>
-      <div class="session-timeControls-plus"> + </div>
-      <div class="session-timeControls-minus"> - </div>
+  <div class="container">
+    <h1> Pomodoro Clock </h1>
+    <div id="clock">
+      <p id="status">Work</p>
+      <div class="timer-container" id="#run-the-timer">
+        <span class="minute">25</span>:<span class="second">00</span>
+
+        <span class="timeout_message_show" style="display:none;">We are Sorry, your time is up !</span>
+
+      </div>
+      <p id="start-pause"> Start </p>
+      <p id="pause"> Pause </p>
+      <p id="reset">Reset </p>
+      <p id="credits"> By: TheCoderPilot</p>
     </div>
-    <div id="breakTime">
-      <p> Break Time </p>
-      <p class="break-time"> 5 </p>
-      <div class="break-timeControls-plus"> + </div>
-      <div class="break-timeControls-minus"> - </div>
+    <div id="controls">
+      <div id="sessionTime">
+        <p> Session Time</p>
+        <p class="session-time"> 25 </p>
+        <div class="session-timeControls-plus"> + </div>
+        <div class="session-timeControls-minus"> - </div>
+      </div>
+      <div id="breakTime">
+        <p> Break Time </p>
+        <p class="break-time"> 5 </p>
+        <div class="break-timeControls-plus"> + </div>
+        <div class="break-timeControls-minus"> - </div>
+      </div>
     </div>
+
+
+
   </div>
 
 </body>
